@@ -9,10 +9,10 @@ Source Code จะอยู่ใน package ชื่อ dayX นะครั�
 
 ## Day 1
 
-- [Source](30-android-libraries-in-30-days/tree/master/app/src/main/java/com/devahoy/learn30androidlibraries/day1)
+- [Source](app/src/main/java/com/devahoy/learn30androidlibraries/day1)
 - [Layout](https://github.com/Phonbopit/30-android-libraries-in-30-days/tree/master/app/src/main/res/layout)
 
 ## Day 2
 
-- [Source](30-android-libraries-in-30-days/tree/master/app/src/main/java/com/devahoy/learn30androidlibraries/day2)
+- [Source](app/src/main/java/com/devahoy/learn30androidlibraries/day2)
 - [Layout](https://github.com/Phonbopit/30-android-libraries-in-30-days/tree/master/app/src/main/res/layout)
