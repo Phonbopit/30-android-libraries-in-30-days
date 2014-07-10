@@ -5,4 +5,19 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+
+    <!-- Day 2 -->
+    <style name="FixedHeightBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">200dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:text">@string/lorem_ipsum</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>

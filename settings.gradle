@@ -1,1 +1,10 @@
 include ':app'
+include ':libs:paralloid:paralloid'
+include ':libs:paralloid:paralloidviews'
+
+// Or one line
+// include ':app', ':libs:paralloid:paralloid', ':libs:paralloid:paralloidviews'
+/*
+project(':paralloidexample').projectDir = new File('libs/paralloid/paralloidexample')
+project(':paralloidviews').projectDir = new File('libs/paralloid/paralloidviews')
+project(':paralloid').projectDir = new File('libs/paralloid/paralloid')*/
