@@ -34,4 +34,7 @@ dependencies {
     // Day 2
     compile project(':libs:paralloid:paralloid')
     compile project(':libs:paralloid:paralloidviews')
+
+    // Day 3
+    compile 'com.squareup.retrofit:retrofit:1.6.1'
 }
