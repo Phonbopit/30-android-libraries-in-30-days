@@ -21,6 +21,7 @@ public class RetrofitActivity extends ActionBarActivity {
 
     private GridView mGridView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
