@@ -9,6 +9,8 @@ public class Shot {
     private String description;
     private String url;
 
+
+
     @SerializedName("image_url")
     private String imageUrl;
 
