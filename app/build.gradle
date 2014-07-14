@@ -37,4 +37,10 @@ dependencies {
 
     // Day 3
     compile 'com.squareup.retrofit:retrofit:1.6.1'
+
+    // Day 4 SwipeRefreshLayout also available in Support Libray
+    // Day 5 put in /libs/GraphView-3.1.2.jar
+
+    // Day 6
+    compile 'com.larswerkman:HoloColorPicker:1.4'
 }

@@ -16,7 +16,7 @@ public class GraphViewActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.day_5_activity_graphview);
+        setContentView(R.layout.day5_activity_graphview);
 
 
 //        getSampleCode();
