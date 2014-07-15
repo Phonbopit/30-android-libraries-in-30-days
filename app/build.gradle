@@ -43,4 +43,7 @@ dependencies {
 
     // Day 6
     compile 'com.larswerkman:HoloColorPicker:1.4'
+
+    // Day 7
+    compile 'com.loopj.android:android-async-http:1.4.5'
 }
