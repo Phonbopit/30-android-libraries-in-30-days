@@ -1,4 +1,4 @@
-buildscript {
+/*buildscript {
     repositories {
         maven { url 'http://download.crashlytics.com/maven' }
     }
@@ -8,12 +8,14 @@ buildscript {
     }
 }
 
-apply plugin: 'com.android.application'
-apply plugin: 'crashlytics'
+
+//apply plugin: 'crashlytics'
 
 repositories {
     maven { url 'http://download.crashlytics.com/maven' }
-}
+}*/
+
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 20
@@ -63,5 +65,5 @@ dependencies {
     compile 'com.loopj.android:android-async-http:1.4.5'
 
     // Day 8
-    compile 'com.crashlytics.android:crashlytics:1.+'
+//    compile 'com.crashlytics.android:crashlytics:1.+'
 }

@@ -27,5 +27,6 @@ proguard/
 .idea/
 
 # Crashlytics
-app/crashlytics.properties
-app/main/assets/
+crashlytics.properties
+com_crashlytics_export_strings.xml
+crashlytics-build.properties
