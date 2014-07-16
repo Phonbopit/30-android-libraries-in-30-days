@@ -28,3 +28,4 @@ proguard/
 
 # Crashlytics
 app/crashlytics.properties
+app/main/assets/

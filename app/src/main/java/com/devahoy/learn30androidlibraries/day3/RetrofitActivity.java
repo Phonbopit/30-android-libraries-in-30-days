@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import com.devahoy.learn30androidlibraries.R;
@@ -46,6 +47,14 @@ public class RetrofitActivity extends ActionBarActivity {
                 Toast.makeText(getApplicationContext(),
                         error.getMessage(),
                         Toast.LENGTH_LONG).show();
+            }
+        });
+
+        ListView listView = new ListView(this);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
             }
         });
 

@@ -72,7 +72,6 @@ public class GraphViewActivity extends ActionBarActivity {
         graphView.setBackgroundColor(Color.WHITE);
     }
 
-
     private void getSampleCode() {
 
         GraphViewSeries exampleSeries = new GraphViewSeries(new GraphView.GraphViewData[] {
