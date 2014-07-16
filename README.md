@@ -20,7 +20,13 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 
     git clone git@github.com:Phonbopit/30-android-libraries-in-30-days.git
 
-จากนั้น ก็กด Import จาก Android Studio ได้้เลย ขั้นตอนแรก อาจจะมีปัญหา gradle build faied default name  ให้เปลี่ยนนชื่อโฟลเดอร์ `libs/paralloid-git` เป็น `libs/paralloid` จากนั้นก็ Sync Project เป็นอันเรียบร้อย
+จากนั้น ก็กด Import จาก Android Studio ได้้เลย ขั้นตอนแรก อาจจะมีปัญหา 
+
+```
+Configuration with name 'default' not found
+```
+
+ให้เปลี่ยนนชื่อโฟลเดอร์ `libs/paralloid-git` เป็น `libs/paralloid` จากนั้นก็ Sync Project เป็นอันเรียบร้อย
 
 ## Source Code
 
