@@ -25,3 +25,6 @@ proguard/
 
 # InteliJ IDEA
 .idea/
+
+# Crashlytics
+app/crashlytics.properties

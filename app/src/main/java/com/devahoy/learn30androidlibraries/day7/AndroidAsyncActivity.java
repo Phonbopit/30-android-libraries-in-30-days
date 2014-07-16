@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
+import com.crashlytics.android.Crashlytics;
 import com.devahoy.learn30androidlibraries.R;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -23,6 +24,7 @@ public class AndroidAsyncActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Crashlytics.start(this);
         setContentView(R.layout.day7_activity_async);
 
         mText = (TextView) findViewById(R.id.text);
