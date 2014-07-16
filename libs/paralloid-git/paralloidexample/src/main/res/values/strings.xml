@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paralloid Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Parallax View</string>
+    <string name="title_section2">Shift Background</string>
+    <string name="title_section3">Parallax Background</string>
+    <string name="title_section4">Parallax List Background</string>
+    <string name="title_section5">OverParallax Background</string>
+    <string name="title_invert_transformer">Invert Transformer</string>
+    <string name="title_transform_right">RightAngle Transformer</string>
+    <string name="title_transform_combi">Transformer Combination</string>
+    <string name="peek">Peek a boo!</string>
+
+    <string name="bacon">Bacon ipsum dolor sit amet ut t-bone ham hock pariatur. Ex aliquip est dolore strip steak enim. Fugiat reprehenderit tenderloin ham hock. Pork minim chicken, jowl do strip steak short loin meatball bacon doner proident nulla eiusmod. Elit veniam beef sunt.</string>
+
+</resources>
