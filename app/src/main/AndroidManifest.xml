@@ -22,9 +22,9 @@
 
         <!--<activity android:name=".day2.ParallaxBackgroundActivity" />-->
 
-        <meta-data
+<!--        <meta-data
             android:name="com.crashlytics.ApiKey"
-            android:value="7980c0918eeaeb793d68aac9eebf701d480a8722"/>
+            android:value="YOUR_API_KEY_FROM_CRASHLYTICS_PLUGIN"/>-->
     </application>
 
 </manifest>
