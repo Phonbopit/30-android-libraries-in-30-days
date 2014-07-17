@@ -27,7 +27,9 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 Configuration with name 'default' not found
 ```
 
-ให้เปลี่ยนนชื่อโฟลเดอร์ `libs/paralloid-git` เป็น `libs/paralloid` จากนั้นก็ Sync Project เป็นอันเรียบร้อย
+ให้เปลี่ยนนชื่อโฟลเดอร์ `libs/paralloid-git` เป็น `libs/paralloid` หรือก็อปไฟล์จาก `libs/paralloid-git` ทั้งหมดไปไว้ใน `libs/paralloid` 
+
+จากนั้นก็ Sync Project เป็นอันเรียบร้อย
 
 ## Source Code
 
