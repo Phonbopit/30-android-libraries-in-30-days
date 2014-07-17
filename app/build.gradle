@@ -66,4 +66,8 @@ dependencies {
 
     // Day 8
 //    compile 'com.crashlytics.android:crashlytics:1.+'
+
+    // Day 9
+    compile 'com.jakewharton:butterknife:5.1.1'
+
 }

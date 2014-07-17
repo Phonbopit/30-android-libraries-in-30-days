@@ -14,6 +14,7 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 6 : Holo Color Picker](http://devahoy.com/2014/07/day-6-learn-holo-color-picker/)
 - [Day 7 : Android Async Http](http://devahoy.com/2014/07/day-7-learn-android-async-http/)
 - [Day 8 : Crashlytics](http://devahoy.com/2014/07/day-8-try-crashlytics/)  
+- [Day 9 : Butter Knife](http://devahoy.com/2014/07/day-9-learn-butter-knife/)
 
 ## Usage
 
@@ -23,9 +24,7 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 
 จากนั้น ก็กด Import จาก Android Studio ได้้เลย ขั้นตอนแรก อาจจะมีปัญหา 
 
-```
-Configuration with name 'default' not found
-```
+    Configuration with name 'default' not found
 
 ให้เปลี่ยนนชื่อโฟลเดอร์ `libs/paralloid-git` เป็น `libs/paralloid` หรือก็อปไฟล์จาก `libs/paralloid-git` ทั้งหมดไปไว้ใน `libs/paralloid` 
 
