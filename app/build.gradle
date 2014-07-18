@@ -15,7 +15,18 @@ repositories {
     maven { url 'http://download.crashlytics.com/maven' }
 }*/
 
+// Android Annotations
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.+'
+    }
+}
+
 apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 20
@@ -37,6 +48,14 @@ android {
 
     dexOptions {
         preDexLibraries = false
+    }
+
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.processResources.manifestFile
+        resourcePackageName "com.devahoy.learn30androidlibraries"
     }
 }
 
@@ -70,4 +89,11 @@ dependencies {
     // Day 9
     compile 'com.jakewharton:butterknife:5.1.1'
 
+    // Day 10
+    apt "org.androidannotations:androidannotations:3.0+"
+    compile "org.androidannotations:androidannotations-api:3.0+"
+
 }
+
+
+
