@@ -93,6 +93,9 @@ dependencies {
     apt "org.androidannotations:androidannotations:3.0+"
     compile "org.androidannotations:androidannotations-api:3.0+"
 
+    // day 11
+    compile 'com.github.flavienlaurent.datetimepicker:library:0.0.1'
+
 }
 
 
