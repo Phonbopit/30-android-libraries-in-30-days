@@ -14,4 +14,7 @@
     <string name="pick_color">Pick Color</string>
     <string name="button_click">Click</string>
 
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+
 </resources>
