@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/circular_button_simple"
+        android:layout_width="196dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cpb_textComplete="@string/complete"
+        app:cpb_textError="@string/error"
+        app:cpb_textIdle="@string/upload" />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/circular_button_complete"
+        android:layout_width="196dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cpb_textComplete="@string/complete"
+        app:cpb_textError="@string/error"
+        app:cpb_textIdle="@string/upload" />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/circular_button_error"
+        android:layout_width="196dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cpb_textComplete="@string/complete"
+        app:cpb_textError="@string/error"
+        app:cpb_textIdle="@string/upload" />
+
+</LinearLayout>

@@ -17,4 +17,9 @@
     <string name="select_date">Select Date</string>
     <string name="select_time">Select Time</string>
 
+    <!-- Circular Progress Button -->
+    <string name="complete">Completed</string>
+    <string name="error">Error!</string>
+    <string name="upload">Upload</string>
+
 </resources>

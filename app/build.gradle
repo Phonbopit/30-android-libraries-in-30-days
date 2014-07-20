@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         applicationId "com.devahoy.learn30androidlibraries"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 20
         versionCode 1
         versionName "1.0"
@@ -95,6 +95,9 @@ dependencies {
 
     // day 11
     compile 'com.github.flavienlaurent.datetimepicker:library:0.0.1'
+
+    // day 12
+    compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.0.5'
 
 }
 
