@@ -99,6 +99,13 @@ dependencies {
     // day 12
     compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.0.5'
 
+    // day 13
+    // Use android.support.v4.view.ViewPager
+
+    // day 14
+//    compile 'com.viewpagerindicator:library:2.4.1@aar'
+
+
 }
 
 
