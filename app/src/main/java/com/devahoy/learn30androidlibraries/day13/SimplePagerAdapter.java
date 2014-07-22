@@ -5,10 +5,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-class SimplePagerAdapter extends FragmentStatePagerAdapter {
+public class SimplePagerAdapter extends FragmentStatePagerAdapter {
 
     public static final String ARGS_POSITION = "name";
-    public static final int NUM_PAGES = 50;
+    public static final int NUM_PAGES = 5;
 
     public SimplePagerAdapter(FragmentManager fm) {
         super(fm);
