@@ -103,7 +103,7 @@ dependencies {
     // Use android.support.v4.view.ViewPager
 
     // day 14
-//    compile 'com.viewpagerindicator:library:2.4.1@aar'
+    compile 'com.viewpagerindicator:library:2.4.1@aar'
 
 
 }

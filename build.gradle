@@ -16,9 +16,9 @@ allprojects {
 /*        maven {
             url 'http://repo1.maven.org/maven2/'
         }*/
-/*        maven {
+        maven {
             url "http://dl.bintray.com/populov/maven"
-        }*/
+        }
         jcenter()
     }
 
