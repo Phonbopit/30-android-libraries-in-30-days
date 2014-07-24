@@ -20,7 +20,8 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 12 : Circular Progress Button](http://devahoy.com/2014/07/day-12-learn-circular-progress-button/)
 - [Day 13 : ViewPager](http://devahoy.com/2014/07/day-13-getting-started-with-view-pager-android/)
 - [Day 14 : ViewPagerIndicator](http://devahoy.com/2014/07/day-14-learn-viewpager-indicator/)
-
+- [Day 15 : FadingActionBar](http://devahoy.com/2014/07/day-15-learn-fading-actionbar/)
+- [Day 16 : AutofitTextView](http://devahoy.com/2014/07/day-16-try-autofit-textview/)
 
 ## Usage
 
