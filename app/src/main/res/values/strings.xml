@@ -22,4 +22,7 @@
     <string name="error">Error!</string>
     <string name="upload">Upload</string>
 
+    <!-- EditText Hint -->
+    <string name="edit_text_hint">Input some text</string>
+
 </resources>

@@ -115,6 +115,9 @@ dependencies {
     // day 15
     compile 'com.github.manuelpeinado.fadingactionbar:fadingactionbar-abc:3.1.2'
 
+    // day 16
+    compile 'me.grantland:autofittextview:0.1.+'
+
 
 }
 
