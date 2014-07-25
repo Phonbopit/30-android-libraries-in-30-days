@@ -100,23 +100,28 @@ dependencies {
     apt "org.androidannotations:androidannotations:3.0+"
     compile "org.androidannotations:androidannotations-api:3.0+"
 
-    // day 11
+    // Day 11
     compile 'com.github.flavienlaurent.datetimepicker:library:0.0.1'
 
-    // day 12
+    // Day 12
     compile 'com.github.dmytrodanylyk.circular-progress-button:library:1.0.5'
 
-    // day 13
+    // Day 13
     // Use android.support.v4.view.ViewPager
 
-    // day 14
+    // Day 14
     compile 'com.viewpagerindicator:library:2.4.1@aar'
 
-    // day 15
+    // Day 15
     compile 'com.github.manuelpeinado.fadingactionbar:fadingactionbar-abc:3.1.2'
 
-    // day 16
+    // Day 16
     compile 'me.grantland:autofittextview:0.1.+'
+
+    // Day 17
+    compile ('com.fortysevendeg.swipelistview:swipelistview:1.0-SNAPSHOT@aar') {
+        transitive = true
+    }
 
 
 }

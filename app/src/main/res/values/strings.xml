@@ -25,4 +25,6 @@
     <!-- EditText Hint -->
     <string name="edit_text_hint">Input some text</string>
 
+    <string name="visit_website">Visite Website</string>
+
 </resources>
