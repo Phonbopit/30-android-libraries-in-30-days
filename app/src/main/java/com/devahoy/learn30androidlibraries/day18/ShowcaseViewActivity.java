@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.devahoy.learn30androidlibraries.R;
 import com.github.amlcurran.showcaseview.ShowcaseView;
 import com.github.amlcurran.showcaseview.targets.ActionViewTarget;
-import com.github.amlcurran.showcaseview.targets.Target;
 import com.github.amlcurran.showcaseview.targets.ViewTarget;
 
 public class ShowcaseViewActivity extends ActionBarActivity {
@@ -82,14 +81,12 @@ public class ShowcaseViewActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
 
-        Target step1 = new ViewTarget(mStep1);
         mShowcaseView = new ShowcaseView.Builder(this)
-                .setTarget(step1)
+                .setTarget(new ViewTarget(mStep1))
                 .setOnClickListener(ShowcaseViewOnClick)
                 .build();
 
         mShowcaseView.setButtonText("Next Step");
-
         return super.onCreateOptionsMenu(menu);
     }
 
