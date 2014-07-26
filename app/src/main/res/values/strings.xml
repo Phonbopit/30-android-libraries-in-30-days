@@ -28,8 +28,9 @@
     <string name="visit_website">Visite Website</string>
 
     <!-- ShowcaseView -->
-    <string name="step1">Step 1 : Open your....</string>
-    <string name="step2">Step 2 : Blah blah</string>
-    <string name="step3">Step 3 : Wowwww</string>
+    <string name="step1">Step 1 : Learn Android</string>
+    <string name="step2">Step 2 : Make First App</string>
+    <string name="step3">Step 3 : Practice, Practice and Practice</string>
+    <string name="help">Help</string>
 
 </resources>
