@@ -1,6 +1,7 @@
 include ':app'
 include ':libs:paralloid:paralloid'
 include ':libs:paralloid:paralloidviews'
+include ':libs:showcaseview:library'
 
 // Or one line
 // include ':app', ':libs:paralloid:paralloid', ':libs:paralloid:paralloidviews'

@@ -123,6 +123,9 @@ dependencies {
         transitive = true
     }
 
+    // Day 18
+    compile 'com.github.amlcurran.showcaseview:library:5.0.0'
+
 
 }
 

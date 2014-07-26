@@ -20,6 +20,7 @@ allprojects {
                 "http://clinker.47deg.com/nexus/content/groups/public"
             }
         }
+        mavenCentral()
         jcenter()
     }
 

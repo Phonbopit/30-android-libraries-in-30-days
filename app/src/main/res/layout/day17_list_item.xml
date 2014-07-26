@@ -28,8 +28,8 @@
         android:tag="front">
 
         <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="wrap_content"
+            android:layout_height="128dp"
             android:layout_centerVertical="true"
             android:layout_marginRight="16dp"
             android:id="@+id/website_logo"/>
