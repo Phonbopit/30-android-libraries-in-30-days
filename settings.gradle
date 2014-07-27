@@ -1,4 +1,4 @@
-include ':app'
+include ':app', ':DaoGenerator'
 include ':libs:paralloid:paralloid'
 include ':libs:paralloid:paralloidviews'
 include ':libs:showcaseview:library'
