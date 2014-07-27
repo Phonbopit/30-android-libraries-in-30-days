@@ -22,6 +22,9 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 14 : ViewPagerIndicator](http://devahoy.com/2014/07/day-14-learn-viewpager-indicator/)
 - [Day 15 : FadingActionBar](http://devahoy.com/2014/07/day-15-learn-fading-actionbar/)
 - [Day 16 : AutofitTextView](http://devahoy.com/2014/07/day-16-try-autofit-textview/)
+- [Day 17 : SwipeListView](http://devahoy.com/2014/07/day-17-learn-swipe-listview/)
+- [Day 18 : ShowcaseView](http://devahoy.com/2014/07/day-18-learn-showcaseview/)
+- [Day 19 : GreenDAO](http://devahoy.com/2014/07/day-19-learn-greendao/)
 
 ## Usage
 
@@ -44,3 +47,26 @@ Source Code จะอยู่ใน package ชื่อ dayX นะครั�
 
 - [Source](app/src/main/java/com/devahoy/learn30androidlibraries)
 - [Layout](https://github.com/Phonbopit/30-android-libraries-in-30-days/tree/master/app/src/main/res/layout)
+
+
+## Reference
+
+- [Day 1 : AndroidStaggered Grid](https://github.com/etsy/AndroidStaggeredGrid) 
+- [Day 2 : Paralloid](https://github.com/chrisjenx/Paralloid)
+- [Day 3 : Retrofit](http://square.github.io/retrofit/)
+- [Day 4 : SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html)
+- [Day 5 : Android GraphView](http://android-graphview.org/)
+- [Day 6 : Holo Color Picker](https://github.com/LarsWerkman/HoloColorPicker)
+- [Day 7 : Android Async Http](http://loopj.com/android-async-http/)
+- [Day 8 : Crashlytics](https://try.crashlytics.com/)  
+- [Day 9 : Butter Knife](http://jakewharton.github.io/butterknife/)
+- [Day 10 : Android Annotations](http://androidannotations.org/)
+- [Day 11 : DateTimePicker](https://github.com/flavienlaurent/datetimepicker)
+- [Day 12 : Circular Progress Button](https://github.com/dmytrodanylyk/circular-progress-button)
+- [Day 13 : ViewPager](http://developer.android.com/reference/android/support/v4/view/ViewPager.html)
+- [Day 14 : ViewPagerIndicator](http://viewpagerindicator.com/)
+- [Day 15 : FadingActionBar](https://github.com/ManuelPeinado/FadingActionBar)
+- [Day 16 : AutofitTextView](https://github.com/grantland/android-autofittextview)
+- [Day 17 : SwipeListView](https://github.com/47deg/android-swipelistview)
+- [Day 18 : ShowcaseView](https://github.com/amlcurran/ShowcaseView)
+- [Day 19 : GreenDAO](http://greendao-orm.com/)

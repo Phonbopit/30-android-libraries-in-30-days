@@ -16,7 +16,7 @@ public class GreenDAOActivity extends ListActivity {
     GreenDaoApplication mApplication;
     DaoSession mDaoSession;
     PlayerDao mPlayerDao;
-    ArrayList<String> mDataset;
+    ArrayList<String> mDataset = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,8 +48,6 @@ public class GreenDAOActivity extends ListActivity {
         mPlayerDao.insert(gerrard);
         mPlayerDao.insert(persie);
         mPlayerDao.insert(teerasil);
-
-        mDataset = new ArrayList<String>();
 
         List<Player> players = mPlayerDao.loadAll();
         for (Player player : players) {
