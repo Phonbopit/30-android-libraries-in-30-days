@@ -19,7 +19,7 @@ public class AAHelper {
     public static Book findBookById(long id) {
         return new Select()
                 .from(Book.class)
-                .where("_id = ?", String.valueOf(id))
+                .where("id = ?", String.valueOf(id))
                 .executeSingle();
     }
 

@@ -1,38 +1,49 @@
 package com.devahoy.learn30androidlibraries.day21;
 
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.activeandroid.ActiveAndroid;
 import com.activeandroid.query.Delete;
-import com.devahoy.learn30androidlibraries.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class ActiveAndroidActivity extends ActionBarActivity {
+public class ActiveAndroidActivity extends ListActivity {
 
-    private ListView mListView;
-    private AAAdapter mAdapter;
+    private List<Book> mBooks;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.day21_activity_active_android);
 
-        mListView = (ListView) findViewById(R.id.list_view);
+        initSampleData();
+        mBooks = AAHelper.findBooks();
 
-        List<Book> books = AAHelper.findBooks();
+        StringBuilder builder = new StringBuilder();
+        ArrayList<String> dataset = new ArrayList<String>();
+        for (Book book : mBooks) {
+            builder.setLength(0);
+            builder.append("Name : " + book.title + "\n");
+            builder.append("By   : " + book.author + "\n");
+            builder.append("Publisher : " + book.publisher + "\n");
+            builder.append("Release Date : " + book.releaseDate + "\n");
+            dataset.add(builder.toString());
+        }
 
-        mAdapter = new AAAdapter(this, books);
-        mListView.setAdapter(mAdapter);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, dataset);
+        setListAdapter(adapter);
+    }
 
-        mListView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+        Book book = AAHelper.findBookById(mBooks.get(position).getId());
+        Toast.makeText(this, "You choose " + book.title, Toast.LENGTH_SHORT).show();
     }
 
     private void initSampleData() {
