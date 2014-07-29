@@ -142,6 +142,10 @@ dependencies {
     compile 'com.daimajia.easing:library:1.0.0@aar'
     compile 'com.daimajia.androidanimations:library:1.0.6@aar'
 
+    // Day 21
+    // Not need because use compile fileTree()
+//    compile files('libs/ActiveAndroid.jar')
+
 
 }
 
