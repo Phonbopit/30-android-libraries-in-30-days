@@ -25,6 +25,9 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 17 : SwipeListView](http://devahoy.com/2014/07/day-17-learn-swipe-listview/)
 - [Day 18 : ShowcaseView](http://devahoy.com/2014/07/day-18-learn-showcaseview/)
 - [Day 19 : GreenDAO](http://devahoy.com/2014/07/day-19-learn-greendao/)
+- [Day 20 : AndroidViewAnimation](http://devahoy.com/2014/07/day-20-learn-android-view-animations/)
+- [Day 21 : ActiveAndroid](http://devahoy.com/2014/07/day-21-learn-active-android/)
+- [Day 22 : Twitter4J](http://devahoy.com/2014/07/day-22-learn-twitter4j/)
 
 ## Usage
 
@@ -70,3 +73,6 @@ Source Code จะอยู่ใน package ชื่อ dayX นะครั�
 - [Day 17 : SwipeListView](https://github.com/47deg/android-swipelistview)
 - [Day 18 : ShowcaseView](https://github.com/amlcurran/ShowcaseView)
 - [Day 19 : GreenDAO](http://greendao-orm.com/)
+- [Day 20 : AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations)
+- [Day 21 : ActiveAndroid](www.activeandroid.com/)
+- [Day 22 : Twitter4J](http://twitter4j.org/en/index.html)
