@@ -146,6 +146,8 @@ dependencies {
     // Not need because use compile fileTree()
 //    compile files('libs/ActiveAndroid.jar')
 
+    // Day 22
+    compile 'org.twitter4j:twitter4j-core:4.0.2'
 
 }
 
