@@ -45,8 +45,6 @@ public class Twitter4jActivity extends ActionBarActivity {
         mButtonTweet = (Button) findViewById(R.id.button_tweet);
         mListView = (ListView) findViewById(R.id.list_view);
 
-        new AsyncTimeline().execute();
-
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
                 .setOAuthConsumerKey(API_KEY)
@@ -55,6 +53,7 @@ public class Twitter4jActivity extends ActionBarActivity {
                 .setOAuthAccessTokenSecret(ACCESS_TOKEN_SECRET);
         mFactory = new TwitterFactory(cb.build());
 
+        new AsyncTimeline().execute();
 
         mButtonTweet.setOnClickListener(new View.OnClickListener() {
             @Override
