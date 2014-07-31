@@ -28,6 +28,7 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 20 : AndroidViewAnimation](http://devahoy.com/2014/07/day-20-learn-android-view-animations/)
 - [Day 21 : ActiveAndroid](http://devahoy.com/2014/07/day-21-learn-active-android/)
 - [Day 22 : Twitter4J](http://devahoy.com/2014/07/day-22-learn-twitter4j/)
+- [Day 23 : ListViewAnimations](http://devahoy.com/2014/08/day-23-learn-listview-animations/)
 
 ## Usage
 
@@ -76,3 +77,4 @@ Source Code จะอยู่ใน package ชื่อ dayX นะครั�
 - [Day 20 : AndroidViewAnimation](https://github.com/daimajia/AndroidViewAnimations)
 - [Day 21 : ActiveAndroid](www.activeandroid.com/)
 - [Day 22 : Twitter4J](http://twitter4j.org/en/index.html)
+- [Day 23 : ListViewAnimations](https://github.com/nhaarman/ListViewAnimations)
