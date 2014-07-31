@@ -149,6 +149,9 @@ dependencies {
     // Day 22
     compile 'org.twitter4j:twitter4j-core:4.0.2'
 
+    // Day 23
+    compile 'com.nhaarman.listviewanimations:library:2.6.0'
+
 }
 
 
