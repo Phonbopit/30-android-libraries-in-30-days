@@ -3,6 +3,8 @@ package org.andengine.ui.activity;
 import org.andengine.entity.scene.Scene;
 import org.andengine.ui.IGameInterface;
 
+import java.io.IOException;
+
 
 /**
  * This class exists so that the callback parameters of the methods in {@link IGameInterface} get called automatically.
@@ -33,7 +35,7 @@ public abstract class SimpleBaseGameActivity extends BaseGameActivity {
 	// Methods for/from SuperClass/Interfaces
 	// ===========================================================
 
-	protected abstract void onCreateResources();
+	protected abstract void onCreateResources() throws IOException;
 	protected abstract Scene onCreateScene();
 
 	@Override
