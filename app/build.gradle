@@ -152,6 +152,9 @@ dependencies {
     // Day 23
     compile 'com.nhaarman.listviewanimations:library:2.6.0'
 
+    // Day 24
+    compile project (':andEngine')
+
 }
 
 

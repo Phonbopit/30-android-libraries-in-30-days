@@ -9,3 +9,4 @@ include ':libs:showcaseview:library'
 project(':paralloidexample').projectDir = new File('libs/paralloid/paralloidexample')
 project(':paralloidviews').projectDir = new File('libs/paralloid/paralloidviews')
 project(':paralloid').projectDir = new File('libs/paralloid/paralloid')*/
+include ':andEngine'
