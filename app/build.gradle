@@ -155,6 +155,9 @@ dependencies {
     // Day 24
     compile project (':andEngine')
 
+    // Day 25
+    compile 'com.github.blackfizz:eazegraph:1.1.3-SNAPSHOT@aar'
+
 }
 
 
