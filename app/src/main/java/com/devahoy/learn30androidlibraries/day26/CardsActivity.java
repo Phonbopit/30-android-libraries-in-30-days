@@ -20,17 +20,17 @@ public class CardsActivity extends ActionBarActivity {
         setContentView(R.layout.day26_activity_cards);
 
         CardView cardView = (CardView) findViewById(R.id.card);
-        Card card = new Card(this, R.layout.day26_list_item_cards);
+
 
         CardHeader cardHeader = new CardHeader(this);
         cardHeader.setTitle("This is header");
 
+                Card card = new Card(this, R.layout.day26_list_item_cards);
 //        Card card = new MyCard(this);
 //        card.setTitle("This is Title of Card");
         card.addCardHeader(cardHeader);
 
         cardView.setCard(card);
-
 
         // Card ListView
         ArrayList<Card> cards = new ArrayList<Card>();

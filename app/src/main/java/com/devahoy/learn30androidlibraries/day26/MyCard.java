@@ -1,7 +1,6 @@
 package com.devahoy.learn30androidlibraries.day26;
 
 import android.content.Context;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -26,6 +25,5 @@ public class MyCard extends Card {
 
         TextView title = (TextView) view.findViewById(R.id.title);
         title.setText("Lorem ipsum, This is a book!!");
-        title.setGravity(Gravity.CENTER_VERTICAL);
     }
 }
