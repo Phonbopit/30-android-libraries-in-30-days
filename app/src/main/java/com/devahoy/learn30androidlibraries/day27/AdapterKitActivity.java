@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.ListView;
 
 import com.devahoy.learn30androidlibraries.R;
+import com.mobsandgeeks.adapters.CircularListAdapter;
 import com.mobsandgeeks.adapters.InstantAdapter;
 
 import java.util.ArrayList;
@@ -28,7 +29,9 @@ public class AdapterKitActivity extends ActionBarActivity {
                 R.layout.day27_list_item,
                 Player.class,
                 mPlayers);
-        listView.setAdapter(adapter);
+
+        CircularListAdapter circularListAdapter = new CircularListAdapter(adapter);
+        listView.setAdapter(new CircularListAdapter(adapter));
     }
 
     private void initData() {
