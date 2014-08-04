@@ -161,6 +161,9 @@ dependencies {
     // Day 26
     compile 'com.github.gabrielemariotti.cards:library:1.8.0'
 
+    // Day 27
+    compile 'com.mobsandgeeks:adapter-kit:0.5.3'
+
 }
 
 
