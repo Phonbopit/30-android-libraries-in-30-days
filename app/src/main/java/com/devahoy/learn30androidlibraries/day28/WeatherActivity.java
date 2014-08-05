@@ -64,7 +64,7 @@ public class WeatherActivity extends ListActivity {
                             forecast.weather.currentCondition.getDescr();
                     dataset.add(result);
                 }
-                getListView().setBackgroundColor(Color.parseColor("#7e7e7e"));
+                getListView().setBackgroundColor(Color.parseColor("#26B895"));
                 getListView().setDividerHeight(2);
                 mAdapter = new ArrayAdapter<String>(getApplicationContext(),
                         android.R.layout.simple_list_item_1, dataset);
@@ -108,6 +108,5 @@ public class WeatherActivity extends ListActivity {
 
             }
         });
-
     }
 }
