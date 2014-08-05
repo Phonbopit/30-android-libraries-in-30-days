@@ -66,7 +66,7 @@
     <orderEntry type="library" exported="" name="autofittextview-0.1.1" level="project" />
     <orderEntry type="library" exported="" name="greendao-1.3.7" level="project" />
     <orderEntry type="library" exported="" name="swipelistview-1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" exported="" name="okio-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="weatherlib_volleyclient-1.5.2" level="project" />
     <orderEntry type="library" exported="" name="support-v4-20.0.0" level="project" />
     <orderEntry type="library" exported="" name="library-1.8.0" level="project" />
     <orderEntry type="library" exported="" name="library-5.0.0" level="project" />
@@ -82,7 +82,6 @@
     <orderEntry type="library" exported="" name="butterknife-5.1.1" level="project" />
     <orderEntry type="library" exported="" name="eazegraph-1.1.3-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-20.0.0" level="project" />
-    <orderEntry type="library" exported="" name="okhttp-2.0.0" level="project" />
     <orderEntry type="library" exported="" name="library-2.4.0" level="project" />
     <orderEntry type="library" exported="" name="androidannotations-api-3.0.1" level="project" />
     <orderEntry type="library" exported="" name="library-2.4.1" level="project" />
@@ -94,9 +93,9 @@
     <orderEntry type="library" exported="" name="1_library-1.0.5" level="project" />
     <orderEntry type="library" exported="" name="fadingactionbar-abc-3.1.2" level="project" />
     <orderEntry type="library" exported="" name="library-1.0.6" level="project" />
+    <orderEntry type="library" exported="" name="1_library-1.0.6" level="project" />
     <orderEntry type="library" exported="" name="android-async-http-1.4.5" level="project" />
     <orderEntry type="library" exported="" name="HoloColorPicker-1.4" level="project" />
-    <orderEntry type="library" exported="" name="weatherlib_okhttpclient-1.5.2" level="project" />
     <orderEntry type="module" module-name="paralloidviews" exported="" />
     <orderEntry type="module" module-name="paralloid-paralloid" exported="" />
     <orderEntry type="module" module-name="andEngine" exported="" />
