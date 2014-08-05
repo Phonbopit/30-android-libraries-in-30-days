@@ -164,6 +164,11 @@ dependencies {
     // Day 27
     compile 'com.mobsandgeeks:adapter-kit:0.5.3'
 
+    // Day 28
+    compile 'com.survivingwithandroid:weatherlib:1.5.1'
+    compile 'com.survivingwithandroid:weatherlib_okhttpclient:1.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.0.+'
+
 }
 
 
