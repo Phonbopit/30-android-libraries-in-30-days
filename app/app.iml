@@ -96,6 +96,7 @@
     <orderEntry type="library" exported="" name="1_library-1.0.6" level="project" />
     <orderEntry type="library" exported="" name="android-async-http-1.4.5" level="project" />
     <orderEntry type="library" exported="" name="HoloColorPicker-1.4" level="project" />
+    <orderEntry type="library" exported="" name="flatui-2.1.1" level="project" />
     <orderEntry type="module" module-name="paralloidviews" exported="" />
     <orderEntry type="module" module-name="paralloid-paralloid" exported="" />
     <orderEntry type="module" module-name="andEngine" exported="" />

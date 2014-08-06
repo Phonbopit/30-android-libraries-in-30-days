@@ -170,6 +170,7 @@ dependencies {
     compile 'com.mcxiaoke.volley:library:1.0.6@aar'
 
     // Day 29
+    compile 'com.github.eluleci:flatui:2.1.1'
 
 }
 
