@@ -1,8 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:flatui="http://schemas.android.com/apk/res-auto"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:layout_margin="5dip"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip">
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/edittext_flat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:hint="Flat"
+                android:includeFontPadding="true"
+                flatui:fl_fieldStyle="flat"
+                flatui:fl_theme="@array/sea" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/edittext_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:hint="Box"
+                android:includeFontPadding="true"
+                flatui:fl_fieldStyle="box"
+                flatui:fl_theme="@array/grass" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/edittext_transparentbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:hint="Transparent box"
+                android:includeFontPadding="true"
+                flatui:fl_fieldStyle="transparent"
+                flatui:fl_theme="@array/grass" />
+
+            <com.cengalabs.flatui.views.FlatEditText
+                android:id="@+id/edittext_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:hint="Transparent"
+                android:includeFontPadding="true"
+                flatui:fl_fieldStyle="transparent"
+                flatui:fl_theme="@array/grass"
+                flatui:fl_borderWidth="0dp" />
+
+            <com.cengalabs.flatui.views.FlatToggleButton
+                android:id="@+id/toggle_button"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:checked="true"
+                flatui:fl_space="18dp"
+                flatui:fl_cornerRadius="24dp" />
+
+            <com.cengalabs.flatui.views.FlatSeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:max="100" />
+
 
 </LinearLayout>
