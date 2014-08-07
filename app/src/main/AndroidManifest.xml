@@ -13,7 +13,7 @@
         android:name=".day21.AAApplication">
 
         <activity
-            android:name=".day29.FlatUIActivity"
+            android:name=".day30.FireBaseActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
