@@ -17,13 +17,11 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.Query;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * Created by phonbopit on 8/7/14.
- */
 public class FireBaseActivity extends ActionBarActivity {
 
     private static final String AHOY_CHAT_URL = "https://ahoychat.firebaseio.com";
@@ -64,7 +62,12 @@ public class FireBaseActivity extends ActionBarActivity {
     }
 
     private void sendMessage() {
-        Chat chat = new Chat(mMessage.getText().toString(), mUsername);
+//        Chat chat = new Chat(mMessage.getText().toString(), mUsername);
+
+        Map<String, Object> chat = new HashMap<String, Object>();
+        chat.put("owner", mUsername);
+        chat.put("message", mMessage.getText().toString());
+
         mFirebase.push().setValue(chat);
         mMessage.setText("");
     }
@@ -76,9 +79,8 @@ public class FireBaseActivity extends ActionBarActivity {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Map<String, Object> newPost = (Map<String, Object>) dataSnapshot.getValue();
-
-                String owner = newPost.get(Chat.KEY.OWNER).toString();
-                String message = newPost.get(Chat.KEY.MESSAGE).toString();
+                String owner = newPost.get("owner").toString();
+                String message = newPost.get("message").toString();
 
                 mChats.add(0, owner + " Say: " + message);
 

@@ -1,8 +1,11 @@
+/*
 package com.devahoy.learn30androidlibraries.day30;
 
+*/
 /**
  * Created by phonbopit on 8/7/14.
- */
+ *//*
+
 public class Chat {
 
     public class KEY {
@@ -37,3 +40,4 @@ public class Chat {
         this.owner = owner;
     }
 }
+*/
