@@ -32,6 +32,10 @@ Learn 30 Android Libraries in 30 Days, 1 Library a day :D
 - [Day 24 : AndEngine](http://devahoy.com/2014/08/day-24-andengine-android-studio/)
 - [Day 25 : EazeGraph](http://devahoy.com/2014/08/day-25-learn-eaze-graph/)
 - [Day 26 : Cardslib](http://devahoy.com/2014/08/day-26-learn-cardslib/)
+- [Day 27 : AdapterKit](http://devahoy.com/2014/08/day-27-learn-adapter-kit/)
+- [Day 28 : WeatherLib](http://devahoy.com/2014/08/day-28-learn-weatherlib/)
+- [Day 29 : FlatUI](http://devahoy.com/2014/08/day-29-learn-flat-ui/)
+- [Day 30 : Android Firebase](http://devahoy.com/2014/08/day-30-learn-android-firebase/)
 
 ## Usage
 
@@ -84,3 +88,7 @@ Source Code จะอยู่ใน package ชื่อ dayX นะครั�
 - [Day 24 : AndEngine](www.andengine.org/)
 - [Day 25 : EazeGraph](https://github.com/blackfizz/EazeGraph)
 - [Day 26 : Cardslib](https://github.com/gabrielemariotti/cardslib)
+- [Day 27 : AdapterKit](https://github.com/mobsandgeeks/adapter-kit)
+- [Day 28 : WeatherLib](https://github.com/survivingwithandroid/WeatherLib/)
+- [Day 29 : FlatUI](https://github.com/eluleci/FlatUI/)
+- [Day 30 : Android Firebase](https://www.firebase.com/)
